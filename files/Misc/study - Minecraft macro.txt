@@ -1,0 +1,143 @@
+MINEMACRO
+
+
+Numérica
+textual
+global
+minecraft
+
+
+NUMÉRICA
+int nota=1;	#nota=1;
+		
+TEXTUAL
+char nome[4]="joao";	&nome='joao';
+
+GLOBAL (entre macros)
+%#nota% (numérica global)
+%&nome% (textual global)
+
+printf("algo");	echo(algo);
+
+scanf("%d",&nota);	prompt([variável],[método], [informação]);
+
+variáveis:
+#nota ou &nome
+
+MÉTODO:
+$$?->digitar texto ou número
+$$i->lista dos itens (id)
+$$u->lista dos players
+$$p->lista das coordenadas
+
+INFORMAÇÃO	printf("algo");
+
+MENSAGENS:
+
+log(algo);	apenas o player lê
+echo(algo);	mensagem enviada no chat (executar comandos.
+
+&&CONDICIONAIS&&
+
+IF
+ELSE
+ELSEIF
+ENDIF
+	
+
+#numero=20;						int numero=20;
+IF(%#numero%>30);					if(numero>30){
+log(a variavel numero é maior que 30);			printf("numero é > 30");}
+ELSEIF(%#numero%<10);					else if(numero<10){
+log(a variavel numero é menor que 10);			printf("numero é < 10");}
+ELSE;							else{
+log(a variavel numero é maior que 10 e menor que 30);	printf("numero >10 & <30");}
+ENDIF;							;
+
+
+do();
+while();
+
+&&REPETIÇÕES&&
+
+DO
+
+DO(5);		do{
+log(pudim);	printf("pudim");}i++;
+loop;		while(i!=5);
+
+do infinito:
+
+DO;		do{i++;
+log(pudim);	printf("p");}
+loop;		while(i<0);
+
+DO;		do{		
+key(attack);	atacar;
+wait(1ms);	esperar 1ms;
+loop;		}loop;
+
+FOR
+
+for(#nslot,54,90);
+
+
+MINECRAFT
+INFORMAÇÕES GERAIS
+%PLAYER%               - nick do jogador
+%DIMENSION%            - nome da dimensão atual do player (nether/mundo normal)
+%SERVER%               - IP do servidor atual
+%RAIN%                 - condiçao de chuva (0 - 400)
+
+
+
+INFORMAÇÕES DO PLAYER
+%XPOS%                 - posição X atual do player
+%YPOS%                 - posição Y atual do player
+%ZPOS%                 - posição Z atual do player
+%DIRECTION%         - direçao em que está olhando (apresentada atraves de uma letra  N/S/E/W)
+%YAW%                  - direção horizontal em que está olhando, medida em ângulos, vai de (-90 a 0) e de (0 a 90)
+%PITCH%                - direçao vertical em que está olhando, medida em ângulos, vai de (-90 a 0) e de (0 a 90)
+%HEALTH%               - Sangue atual do jogador (0 - 20) sendo meio coraçao = 1
+%HUNGER%               - Fome atual do jogador (0 - 20) sendo meia carne = 1
+%OXYGEN%               - Oxigênio atual do jogador (0 - 400)
+
+
+
+INFORMAÇÕES DA ARMADURA (EM USO)
+%BOOTSDURABILITY%      - Durabilidade da bota
+%BOOTSID%              - ID da bota usada
+%LEGGINGSDURABILITY%   - Durabilidade da calça
+%LEGGINGSID%           - ID da calça usada
+%CHESTPLATEDURABILITY% - Durabilidade do Peitoral 
+%CHESTPLATEID%         - ID do peitoral usado
+%HELMDURABILITY%       - Durabilidade do capacete
+%HELMID%               - ID do capacete usado
+
+
+INFORMAÇÕES DO ITEM QUE ESTÁ EM SUA MÃO
+%ITEM%                 - ID do item que esta em sua mão
+%ITEMNAME%             - Nome do item que está em sua mão
+%DURABILITY%           - Durabilidade do item que está em sua mão 
+%STACKSIZE%            - Quantia maxima que o Item pode ser agrupado
+ 
+
+INFORMAÇÕES SOBRE O QUE ESTÁ EM SUA MIRA
+%HIT%                  - Tipo do que esta em sua mira (PLAYER, BLOCK, etc)
+%HITID%                - ID do que esta em sua mira
+%HITNAME%              - Nome do que está em sua mira
+%HITDATA%              - "fase" ou "estágio" do bloco, Exemplo: Fungo pronto para colher HITDATA=3
+ 
+
+INFORMAÇÕES DE "BOTÕES PRESSIONADOS"
+%KEY_CTRL%             - Verifica se a tecla CTRL esta sendo pressionado
+%KEY_ALT%              - Verifica se a tecla ALT esta sendo pressionado 
+%KEY_SHIFT%            - Verifica se a tecla SHIFT esta sendo pressionado 
+%KEY_(name)%           - Verifica se a tecla definida esta sendo pressionado (ex:%KEY_(B)%)
+
+
+
+
+
+
+

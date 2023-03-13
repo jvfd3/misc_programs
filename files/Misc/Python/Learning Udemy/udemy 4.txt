@@ -1,0 +1,14 @@
+comprimento	2
+largura=	4
+altura=		8
+
+volume=comprimento+largura+altura
+
+figura='cubo'
+
+print(volume)
+print(figura)
+
+float(volume) 	#volume deixa de ser 64 para sr 64.0 
+int(10.5)	#mostra 10
+str(altura)	#altura vira '8' (caractere 8)

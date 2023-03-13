@@ -1,0 +1,13 @@
+nome1='joao'
+nome2="joao"
+
+nome='joao vitor'
+	#nome1==nome2 (true)?
+
+nome[0:4] 	#printa 'joao'
+nome[0:6]	#printa 'joao v'
+nome[2:6]	#printa 'ao v'
+nome+nome	#printa 'joao vitorjoaovitor'
+nome*3		#printa 'joao vitorjoao vitorjoao vitor'
+"t" in nome	#true
+"z" in nome	#false

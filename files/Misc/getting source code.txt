@@ -1,0 +1,2 @@
+vou falar em termos bem tecnicos, no caso do android � s� voc� descompilar o .dex gerado pela Dalvik Machine(compilador de android), depois disso voc� descompila em codigo java(linguagem de programa��o que � a principal para se criar apps no mesmo), fazendo essa revers�o voc� consegue de boas o source code de qualquer aplica��o
+

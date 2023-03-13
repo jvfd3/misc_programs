@@ -1,0 +1,37 @@
+while True:
+	stuff()
+	if fail_condition:
+	break
+Or:
+stuff()
+while not fail_condition:
+stuff()
+
+
+
+
+
+L=input('lado em m: ')
+H=input('altura em m: ')
+
+Vol1=L**3
+Vol2=L*L*H
+Vol3=L*L*(L+H)
+Vol4=L**3+L*L*H
+
+L1=Vol1*1000
+L2=Vol2*1000
+L3=Vol3*1000
+L4=Vol4*1000
+
+DMax1=L1*10
+DMax2=L2*10
+DMax3=L3*10
+DMax3=L3*10
+
+print(f'Distancias possiveis \n 1: {Dmax1} \n 2: {Dmax2} \n 3: {Dmax3}  \n 4: {Dmax4}')
+
+
+L=float(input('lado em m: '))
+Dmax=(L**3)*10000
+print(f'Distancias possiveis {Dmax}’)

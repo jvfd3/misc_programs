@@ -1,0 +1,80 @@
+Aula 1 : Variaveis basicas
+a=1
+b=2
+c=3
+d=a+b+c
+print(a)
+print(b)
+print(c)
+print(d)
+
+
+Aula 4 : Variaveis
+
+valorhora=4
+Dias=30
+Horastrabalhadas=8
+Pagamentofinal=valorhora+Dias+Horastrabalhadas
+Testedecimal=3.2
+Nome=”Jaozin”
+Float(valorhora) // inteiro para decimal (retornaria 4.0)
+Int(testedecimal) // decimal para inteiro (retornaria 3)
+Str(dias) // numérico para string
+
+
+Aula 5 : Strings
+
+Nome[0:3]//retorna Jao //variável[inicio da leitura da string:quantos caracteres serão lidos]
+Nome+nome//retorna JaozinJaozin
+Nome*3//retorna JaozinJaozinJaozin
+“J” in nome // retorna true // “caractere” in variavel
+“z” in nome// retorna false
+
+
+Aula 6: listas
+
+lista=[1,2,3,"pim",5,6,7,"pudim"]
+print(lista)		 //retorno:1,2,3,"pim",5,6,7,"pudim"
+lista.append("9")
+print(lista)		 //retorno:1,2,3,"pim",5,6,7,"pudim",9
+lista.index("pim")	 // retorno: 3 (posição em que o pim está classificado na lista/vetor)
+lista.index(4) 	 	//retorno: 8 (valor na posição 4)
+lista.count("pim")	//retorno: 1 (a quantidade de "pim's" na lista)
+lista.remove(3)		//remove o primeiro 3 que encontrar
+lista.reverse()		//inverte a ordem da lista
+lista.sort()		//organiza a lista em ordem crescente
+
+
+Aula 7: Dicionários
+
+Telefones={"jao":10, "pedro":20, "zé":30}
+Telefones //retorna o print
+Telefones{"dri"}=40 //adiciona " "dri":40 " ao dicionário
+del telefones {"pedro"} //agora a lista é: " {"jao":10, "zé":30, dri":40}
+
+
+Aula 8: Tuplas
+
+tuplas=("tiago", "python", "udemy")
+tuplas[0]	//tiago
+tuplas[1]	//python
+tuplas[2]	//udemy
+tuplas[3]	//error
+
+
+tuplas[0]	"tiago"
+tuplas[0:1]	"tiago",
+tuplas[0:2]	"tiago", "python"
+
+len(tuplas)	//retorna 3
+
+tuplas+tuplas	//"tiago", "python", "udemy", "tiago", "python", "udemy"
+tuplas*3	//"tiago", "python", "udemy", "tiago", "python", "udemy", "tiago", "python", "udemy"
+
+4 in tuplas	//false
+"udemy in tuplas//true
+
+lista=[1,4,"tiago"]	
+lista			[1,4,"tiago"]
+tuplas2=tuple(lista)	
+tuplas2			(1,4,"tiago")

@@ -1,0 +1,26 @@
+lista=[1,4,7,"jao",2,3]
+print(lista)			#[1,4,7,'jao',2,3]
+lista.append("python")		
+print(lista)			#[1,4,7,"jao",2,3,'python']
+lista.append(20)		
+print(lista)			#[1,4,7,"jao",2,3,'python',20]
+lista.index("jao")		#3
+lista.index(20)			#7
+lista.count(4)			#1
+lista.append(4)
+print(lista)			#[1,4,7,"jao",2,3,'python',20,4]
+lista.count(4)			#2
+lista.remove("python")
+print(lista)			#[1,4,7,"jao",2,3,20,4]
+lista.remove(4)			
+print(lista)			#[1,7,"jao",2,3,20,4]
+lista.reverse
+print(lista)			#[4,20,3,2,'jao',7,1]
+
+
+lista2=[1,9,4,3,2,7,6]
+lista2.sort()
+print(lista2)			#[1,2,3,4,7,9]
+
+
+

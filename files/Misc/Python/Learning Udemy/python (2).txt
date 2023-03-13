@@ -1,0 +1,18 @@
+print('Olá, Mundo!')
+	Olá, Mundo!
+print(7+4)
+	11
+print('7'+'4') <=(quase igual a)=> print('7','4')
+	74
+
+
+~~~~~~
+
+nome='jao'
+idade=19
+peso=63.3
+
+print(nome,idade,peso)
+
+nome2=input('qual teu nome?')
+idade2=input('qual tua idade?')

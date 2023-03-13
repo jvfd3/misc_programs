@@ -1,0 +1,42 @@
+AULA 4 - 21/12/19
+
+print('Olá, Mundo!')
+	Olá, Mundo!
+print(7+4)
+	11
+print('7'+'4') <=(quase igual a)=> print('7','4')
+	74
+
+
+~~~~~~
+
+nome='jao'
+idade=19
+peso=63.3
+
+print(nome,idade,peso)
+
+~~~~~~
+ler o nome e boas vindas de acordo com o nome
+
+nome=input('digite o seu nome')
+print('bem vindo,',nome,' ao python')
+~~~~~~
+
+leia dia mes e ano e mostre a mensagem com a data formatada
+
+dia=input('Informe o dia')
+mes=input('Informe o mes')
+ano=input('Informe o ano')
+print(dia+'/'+mes+'/'+ano)
+//ou
+print('Voce nasceu no dia '+dia+' do mes '+mes+' de '+ano)
+
+~~~~
+leia dois numeros e tente mostrar a soma entre eles
+
+n1=input(digite o n1: )
+n2=input(digite o n1: )
+soma=n1+n2
+print(soma)
+

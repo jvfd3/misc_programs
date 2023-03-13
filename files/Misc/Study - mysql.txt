@@ -1,0 +1,55 @@
+criar o banco de dados:
+create database ...;
+
+selecione o banco de dados:
+use ...;
+
+Criar tabela do banco de dados:
+create table ...;
+
+Para mostrar as tabelas criadas:
+show tables;
+
+Para mostrar a estrutura de uma tabela:
+describe nome-da-tabela;
+
+visualizar todos os bancos de dados no servidor:
+show database;
+
+Para eliminar uma tabela do banco de dados:
+drop table ...;
+
+Para eliminar um banco de dados:
+drop database ...;
+
+para altera uma tabela:
+alter table ...
+para adicionar um dado na tabela:
+add ...;
+
+inseri um dado:
+insert into ... values ...;
+
+para selecionar uma tabela:
+select * from ...;
+
+para deletar uma dado da tabela:
+delete from ... where ...;
+
+Para remover uma restrição de chave estrangeira:
+show create table ...;
+alter table ... drop foreign key ...;
+
+Para alterar o tipo da coluna:
+alter table ... modify nome-da-colune alteração;
+
+Para remover a coluna:
+alter table ... drop ...;
+
+Para mudar o nome de uma tabela:
+rename table ... to ...;
+
+Para alterar o nome de uma coluna da tabela:
+alter table ... change nome_do_campo novo_nome
+tipo_de_dado;
+
